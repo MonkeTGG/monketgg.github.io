@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="./index.css" rel="stylesheet">
+        <script src="index.js"></script>
+        <title>Norstorian's Projects</title>
+        <style>
+            .nsb {
+                display: block;
+            }
+            .chbx:checked ~ .coverns {
+                display: none;
+            }
+            .chbx:checked {
+                display: none;
+            }
+        </style>
+    </head>
+    <body>
+        <noscript>
+            <input id="chbx" type="checkbox" class="chbx">
+            <div id="nsb" class="coverns" style="background-color: rgb(18, 18, 18); width: 100vw; height: 100vh; position: absolute; top: 0; left: 0; z-index: 999; padding: 10px;">
+                <p1>Your browser doesn't support JavaScript, you can either, stay here, albeit, at a impaired experience, or visit the HTML-only version of the site.</p1>
+                <ul><li>
+                    <label for="chbx" style="background-color: rgba(5, 5, 5, 0.5); border: none; font-size: larger; padding: 5px;"><p1>I don't care.</p1></label><span style="padding-left: 10px;"></span><label style="background-color: rgba(5, 5, 5, 0.5); border: none; font-size: larger; padding: 5px;"><p1><a style="color: white; text-decoration: none;" href="./lite/index.html">Take me there please.</a></p1></label>
+                </li></ul>
+            </div>
+        </noscript>
+        <div class="tdiv tbg">
+            <p1 class="tbgt">Desktop 1</p1>
+        </div>
+        <div class="tdiv mbg">
+            <p1 id="dte" class="mbgt">2 January, 2026</p1>
+        </div>  
+        <div class="tdiv otbg">
+            <p1 id="elb" class="tbgt">12:00:00</p1>
+        </div>
+        <div class="wind tdiv">
+            <p1 style="font-weight: 900; font-size: 100px; padding: 50px; position: absolute;">Welcome!</p1>
+            <p1 style="padding: 50px; position: absolute; top: 125px; font-size: larger;">This is where most of my projects reside, feel free to test them out.</p1>
+            <div class="tdiv" style="position: absolute; top: 225px; left: 50px; width: 250px; height: 150px; background-color: rgba(5, 5, 5, 0.5); display: flex;">
+                <!-- <p1 style="position: absolute; top: calc(100% - 35px)">OCraftW</p1> -->
+                <p1 style="text-align: center;">nothing here yet, haven't finished anything.</p1>
+            </div>
+            <!--<div class="tdiv" style="position: absolute; top: 225px; left: 325px; width: 250px; height: 150px; background-color: rgba(5, 5, 5, 0.5);">
+                <p1 style="position: absolute; top: calc(100% - 35px)">wmsu</p1>
+            </div>-->
+            <button onclick="brm()" style="background-color: transparent; border: none; left: 50px; position: absolute; top: 390px; font-size: larger;"><img id="aimg" src="https://www.svgrepo.com/show/108052/arrow-down-filled-triangle.svg" style="user-select: none; user-drag: none; filter: invert(1); height: 11px"><p1 style="padding: 10px">If you still want to read more...</p1></button>
+            <div id="brmd" class="tdiv" style="display: none; background-color: rgba(5, 5, 5, 0.5); position: absolute; top: 435px; left: 50px; width: 900px; height: 200px;">
+                <p1 id="abtm" style="position: absolute; top: 10px; left: 10px">about me coming soonish</p1>
+            </div>
+        </div>
+    </body>
+</html>

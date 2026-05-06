@@ -1,0 +1,66 @@
+html, body {
+    background-color: grey;
+    background-image: url("https://wallpapers.com/images/hd/dark-blue-background-purple-design-1znq4z6441ouw3vq.jpg");
+    overflow: hidden;
+}
+
+p1 {
+    color: white;
+    font-size: 15px;
+    font-family: "JetBrainsMonoNL NF";
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+}
+
+.mbgt {
+    font-size: 11px;
+}
+
+.tdiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(10px);
+    z-index: 20;
+}
+
+.wind {
+    background-color: rgba(10, 10, 15, 0.9);
+    display: block !important;
+    z-index: 0 !important;
+    border-radius: 10px;
+    position: absolute;
+    top: 41px;
+    left: 10px;
+    width: calc(100% - 20px);
+    height: calc(100% - 51px);
+    box-shadow: 0px 0px 100px black;
+}
+
+.mbg {
+    position: absolute;
+    left: 100px;
+    top: 0;
+    width: calc(100vw - 180px);
+    height: 31px;
+    background-color: rgba(16, 16, 16, 0.5);
+}
+
+.tbg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100px;
+    height: 31px;
+    background-color: rgba(50, 50, 50, 0.5);
+}
+
+.otbg {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 80px;
+    height: 31px;
+    background-color: rgba(50, 50, 50, 0.5);
+}
